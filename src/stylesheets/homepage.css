@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maintitle h1{
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    padding-left: 60%;
+    padding-top: 35%;     
+}
+
+.maintitle strong{
+    color: rgba(75, 255, 165, 0.977);
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 99.9%;
+    height: 2.5rem; 
+}
