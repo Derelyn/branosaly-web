@@ -10,7 +10,7 @@ const Frontpage = () => {
             </div>
             <h1>
                 Hello, I'm <strong>Branislav Šály</strong>, Self-thought Web
-                Developer, <br />Who is Searching Junior Front-end Job in Bratislava.
+                Developer, Who is Searching Junior Front-end Job in Bratislava.
             </h1>
             <div className='typing-effect'>
                 <Typewriter
