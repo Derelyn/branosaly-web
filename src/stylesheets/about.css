@@ -1,0 +1,59 @@
+.aboutWhole{
+    height: 100vh;
+}
+
+#aboutPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    color: white;
+}
+
+.aboutTitle{
+    grid-column: 1/3;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+#about-shortText{
+    width: 55ch;
+    grid-column: 1/3;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.aboutText{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    top: 2vw;
+}
+.aboutText p{
+    font-size: 1.1em;
+}
+.aboutText div{
+    position: relative;
+    bottom: 5vw;
+}
+.about1{
+    left: 2.5vw;
+}
+.about2{
+    right: 4.5vw;
+}
+.about1 p, .about2 p{
+    padding-top: 0.8vh;
+}
+
+.aboutImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutImg img{
+    width: 80%;
+}

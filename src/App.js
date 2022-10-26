@@ -1,13 +1,16 @@
 import Navbar from './components/navbar/Navbar'
-import Frontpage from './components/Frontpage'
+import Homepage from './components/Homepage'
 import Footer from './components/Footer'
+import About from './components/about/About'
+import MyPerks from './components/myPerks/MyPerks'
 
 function App() {
   return (
     <div className="App">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet"></link>
       <Navbar />
-      <Frontpage />
+      <Homepage />
+      <About />
+      <MyPerks />
       <Footer />
     </div>
   );
