@@ -1,11 +1,54 @@
 .perksWhole{
     height: 100vh;
+    color: white;
 }
 
 .perks{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.7fr 1fr;
     grid-gap: 1em;
+    /* height: 50vh; */
+}
+.perks p, .perks h1, .perks h2{
+    line-height: 1.4;
+}
+.perks h2{
+    font-size: 1.3em;
+}
+
+.titlePerks{
+    font-weight: 700;
+}
+
+.experiences{
+    width: 100%;
+    border-right: 0.15em solid rgba(255,255,255,0.6);
+    padding-top: 1vh;
+}
+.experiences p{
+    width: 23vw;
+    max-width: 50ch;
+}
+.experiences p, .experiences h1{
+    position: relative;
+    left: 30%;
+}
+.education{
+    width: 100%;
+    border-right: 0.15em solid rgba(255,255,255,0.6);
+    padding-top: 1vh;
+}
+.education p{
+    width: 23vw;
+    max-width: 50ch;
+}
+.skills{
+    width: 100%;
+    padding-top: 1vh;
+}
+.Skills p{
+    width: 23vw;
+    max-width: 50ch;
 }
 
 

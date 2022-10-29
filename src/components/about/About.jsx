@@ -21,7 +21,7 @@ const About = () => {
                     </p>
                     <div className='about1'>
                         <p><strong>Age:</strong> 24</p>
-                        <p><strong>Currently:</strong> unemployed</p>
+                        <p><strong>Currently:</strong> self-employed</p>
                     </div>
                     <div className='about2'>
                         <p><strong>Residence:</strong> Bratislava, Nová Baňa</p>
