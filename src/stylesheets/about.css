@@ -58,6 +58,18 @@
     width: 80%;
 }
 
+.zivotopis a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    width: 10vw;
+    text-decoration: none;
+    color: rgba(75, 255, 165, 0.977);
+    border: 2px solid rgba(75, 255, 165, 0.977);
+    font-weight: 500;
+}
+
 @media(min-width: 1920px){
     .aboutText p{
         font-size: 1.3em;

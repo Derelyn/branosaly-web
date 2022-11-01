@@ -9,7 +9,7 @@ body, html{
 .nav-link{
   width: 4.5em;
   height: 2.5em;
- z-index: 999;
+  z-index: 999;
 }
 
 .navbar{

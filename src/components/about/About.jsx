@@ -29,8 +29,8 @@ const About = () => {
                             <p><strong>Residence:</strong> Bratislava, Nová Baňa</p>
                             <p><strong>Email:</strong> b.saly84@gmail.com</p>
                         </div>
-                        <div>
-                            <a href=""></a>
+                        <div className="zivotopis">
+                            <a href="src\components\about\zivotopis.pdf" download=''>Download my CV</a>
                         </div>
                     </div>
                 </div>
