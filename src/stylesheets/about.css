@@ -1,4 +1,5 @@
 .aboutWhole{
+    position: relative;
     height: 80vh;
 }
 
@@ -15,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 #about-shortText{
     width: 55ch;
@@ -23,7 +24,6 @@
     line-height: 1.5;
     text-align: center;
 }
-
 .aboutText{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -56,4 +56,98 @@
 }
 .aboutImg img{
     width: 80%;
+}
+
+@media(min-width: 1920px){
+    .aboutText p{
+        font-size: 1.3em;
+    }
+}
+
+@media(max-height: 1370px) and (orientation:portrait){
+    .aboutWhole{
+        top: 0vh;
+    }
+}
+
+@media (max-width: 1260px){
+    .aboutWhole{
+        bottom: 20vh;
+    }
+    .aboutTitle{
+        font-size: 1.1em;
+    }
+    #about-shortText{
+        width: 35vw;
+    }
+    .aboutText p{
+        font-size: 1em;
+    }
+    .about1, .about2{
+        top: 1vh;
+        line-height: 2vh;
+    }
+    .about1{
+        left: 0vw;
+    }
+    .about2{
+        right: 0vw;
+    }
+}
+
+@media(max-width: 850px){
+    .aboutWhole{
+        bottom: 0vh;
+    }
+    #about-shortText{
+        width: 40vw;
+    }
+    .aboutImg img{
+        width: 45vw;
+    }
+}
+
+@media(max-width: 720px){
+    .aboutWhole{
+        bottom: 3vh;
+    }
+    #aboutPage{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 1em;
+    }
+    .aboutTitle{
+        font-size: 1.3em;
+        grid-column: 1/5;
+    }
+    .aboutImg{
+        grid-column: 1/5;
+    }
+    .aboutImg img{
+        width: 95vw;
+    }
+    .aboutText{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column: 1/5;
+    }
+    #about-shortText{
+        width: 90vw;
+        grid-column: 1/5;
+    }
+    .about1{
+        float: right;
+        width: 100%;
+        position: relative;
+        grid-column: 1/5;
+        left:19vw;
+    }
+    .about2{
+        float: right;
+        width: 100%;
+        left:19vw;
+        grid-column: 1/5;
+    }
+    .about1, .about2{
+        top: 2vh;
+    }
 }

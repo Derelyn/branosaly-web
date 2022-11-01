@@ -41,6 +41,7 @@ strong{
 }
 
 .typing-effect {
+    width: 50vw;
     position: relative;
     bottom: 8vh;
     left: 25vw;

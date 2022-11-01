@@ -2,9 +2,9 @@ import NavLinks from './NavLinks'
 
 const Navigation = () => {
     return (
-        <div className='Navigation'>
+        <nav className='Navigation'>
             <NavLinks />
-        </div>
+        </nav>
     );
 }
 

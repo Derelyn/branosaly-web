@@ -1,13 +1,14 @@
 .perksWhole{
     height: 100vh;
     color: white;
+    position: relative;
+    bottom: 5vh;
 }
 
 .perks{
     display: grid;
     grid-template-columns: 1fr 0.7fr 1fr;
     grid-gap: 1em;
-    /* height: 50vh; */
 }
 .perks p, .perks h1, .perks h2{
     line-height: 1.4;
@@ -46,9 +47,120 @@
     width: 100%;
     padding-top: 1vh;
 }
-.Skills p{
+.skills p{
     width: 23vw;
     max-width: 50ch;
 }
 
+@media(min-width: 1920px){
+    .perks p{
+        font-size: 1.3em;
+    }
+    .perks h2{
+        font-size: 1.4em;
+    }
+    .perks h1{
+        font-size: 2em;
+    }
+}
 
+@media(max-width: 1025px){
+    .perksWhole {
+        bottom: 15vh;
+    }
+}
+
+@media(max-height: 1370px) and (orientation:portrait){
+    .perksWhole{
+        bottom: 33vh;
+    }
+}
+
+@media(max-height: 1200px) and (orientation: portrait){
+    .perksWhole{
+        bottom: 20vh;
+    }
+    .experiences, .education, .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 2vh;
+    }
+    .experiences{
+        grid-column: 1/2;
+        width: 50vw;
+    }
+    .education{
+        grid-column: 1/2;
+        position: relative;
+        bottom: 7vh;
+    }
+    .skills{
+        text-align: justify;
+        position: relative;
+        bottom: 25vh;
+    }
+    .skills p, .skills h2{
+        position: relative;
+        left: 5vw;
+        width: 37vw;
+        line-height: 1.5em;
+    }
+    .experiences p, .education p{
+        width: 40vw;
+    }
+    .perksComponents{
+        padding-top: 1.5vh;
+    }
+    .experiences p, .experiences h1{
+        left: 0;
+    }
+}
+
+@media(max-width: 380px){
+    .perksWhole{
+        top: 16vh;
+    }
+}
+
+@media(max-width: 720px){
+    .perksWhole{
+        top: 5vh;
+    }
+    .experiences, .education, .skills{
+        grid-column: 1/5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 2vh;
+    }
+    .skills{
+        text-align: justify;
+    }
+    .skills p, .skills h2{
+        position: relative;
+        left: 5vw;
+        width:  65vw;
+        line-height: 1.5em;
+    }
+    .experiences p, .education p{
+        width: 80vw;
+    }
+    .perksComponents{
+        padding-top: 1.5vh;
+    }
+
+    .experiences p, .experiences h1{
+        left: 0vw;
+    }
+}
+
+@media(max-width: 380px){
+    .perksWhole{
+        top: 16vh;
+    }
+}

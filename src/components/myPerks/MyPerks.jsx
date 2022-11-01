@@ -1,16 +1,16 @@
 const MyPerks = () => {
     return (
-        <div className="perksWhole">
+        <div className="perksWhole" id="skills">
             <hr className="mainPageLine" />
             <div className="perks">
                 <div className="experiences">
-                    <h1>Work Experience</h1>
-                    <div className="jutel">
+                    <h1>Work Experiences</h1>
+                    <div className="perksComponents">
                         <p><strong>2019-2022</strong></p>
                         <p className="titlePerks">Electrician for JUT-EL s.r.o.</p>
                         <p>Part-time job during summer and also school year in Germany, France and Slovakia.</p>
                     </div>
-                    <div className="warehousekeeper">
+                    <div className="perksComponents">
                         <p><strong>2018-2019</strong></p>
                         <p className="titlePerks">Warehousekeeper for BILLA s.r.o.</p>
                         <p>Part-time job when I was at high-school.</p>
@@ -18,17 +18,17 @@ const MyPerks = () => {
                 </div>
                 <div className="education">
                     <h1>Education</h1>
-                    <div className="webDevelopmentCourse">
+                    <div className="perksComponents">
                         <p><strong>2022</strong></p>
                         <p className="titlePerks">The Web Developer Bootcamp 2022</p>
                         <p>Course at Udemy by Colt Steele. Course About Complet Web Development.</p>
                     </div>
-                    <div className="university">
+                    <div className="perksComponents">
                         <p><strong>2019-2022</strong></p>
                         <p className="titlePerks">University of Economics in Bratislava</p>
                         <p>Bachelor's Degree in International Economic Relations at Faculty of International Relations.</p>
                     </div>
-                    <div className="highSchool">
+                    <div className="perksComponents">
                         <p><strong>2014-2018</strong></p>
                         <p className="titlePerks">Polytechnic High School in Zlaté Moravce.</p>
                         <p>Field of Study: Mechanic Electrician</p>

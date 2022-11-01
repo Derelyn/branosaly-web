@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 const Frontpage = () => {
     return (
-        <div className="maintitle">
+        <div className="maintitle" id="home">
             <div id="mainphoto">
                 <img src={portrait} alt="portrait" />
             </div>

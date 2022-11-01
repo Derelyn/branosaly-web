@@ -49,3 +49,7 @@ grid-template-columns: 50% 20% 30%;
   - : minmax(100px, auto) - zaklad (min) je 100px, pokial bude vacsie tak auto
 - justify-items: ;/align-items: ; - podobne ako flexbox len pre grid
 - `grid-column/row: 1/3;` - expandne column/row od 1 po 3
+
+# 31.10.2022
+- najprv funkcionalita az potom style
+- npm i react-scroll moze mat problem s efektom na navbare. Nefunguje ani pri overflow: hidden;
