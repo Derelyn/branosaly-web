@@ -76,7 +76,7 @@
     }
 }
 
-@media(max-height: 1200px) and (orientation: portrait){
+@media (min-height: 1000px) and (max-height: 1200px) and (orientation: portrait){
     .perksWhole{
         bottom: 20vh;
     }
@@ -100,7 +100,7 @@
     .skills{
         text-align: justify;
         position: relative;
-        bottom: 25vh;
+        bottom: 50%;
     }
     .skills p, .skills h2{
         position: relative;
@@ -119,12 +119,6 @@
     }
 }
 
-@media(max-width: 380px){
-    .perksWhole{
-        top: 16vh;
-    }
-}
-
 @media(max-width: 720px){
     .perksWhole{
         top: 5vh;
@@ -137,6 +131,7 @@
         align-items: center;
         text-align: center;
         padding-top: 2vh;
+        border-right: none;
     }
     .skills{
         text-align: justify;

@@ -12,10 +12,10 @@ strong{
 
 #mainphoto img{
     position: relative;
-    width: 55%;
-    bottom: 2em;
-    left: 4em;
-    clip-path: polygon(23% 0, 92% 23%, 72% 94%, 11% 86%);
+    width: 40%;
+    bottom: 5em;
+    left: 10em;
+    clip-path: polygon(21% 0, 100% 14%, 77% 100%, 0 93%);
     object-fit: cover;
     object-position: bottom;
     z-index: 1;
@@ -41,10 +41,10 @@ strong{
 }
 
 .typing-effect {
-    width: 50vw;
+    width: 70%;
     position: relative;
-    bottom: 8vh;
-    left: 25vw;
+    bottom: 15vh;
+    left: 28vw;
     display: flex;
     align-items: center;
     font-size: 5vw;
@@ -54,10 +54,10 @@ strong{
 .footer{
     display: flex;
     justify-content: center;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: 1vh;
     width: 99.9%;
-    height: 3.5vh; 
+    height: 4vh; 
 }
 
 @media (max-width: 720px){
@@ -94,7 +94,9 @@ strong{
         bottom: 3vh;
     }
     .footer{
-        height: 2rem;
+        position: fixed;
+        bottom: 0;
+        width: 64.5%;
     }
 }
 
@@ -103,15 +105,16 @@ strong{
         overflow-x: hidden;
     }
     #mainphoto img{
-        width: 120vw;
+        width: 85vw;
         height: auto;
         object-fit: contain;
         object-position: center; 
         right: calc(20% + 1rem);
         left: auto;
-        right: 15vw;
+        right: 0vw;
     }
     .maintitle{
+        height: 90vh;
         position: relative;
         top: 4vh;
     }
@@ -129,5 +132,11 @@ strong{
     }
     .footer{
         height: 2rem;
+    }
+}
+
+@media (max-height: 700px){
+    .maintitle{
+        height: 110vh;
     }
 }

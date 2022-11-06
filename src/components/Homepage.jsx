@@ -1,4 +1,4 @@
-import portrait from './imgs/portrait.jpg'
+import portrait from './imgs/myPhoto2.jpg'
 import Typewriter from 'typewriter-effect';
 
 
@@ -16,11 +16,13 @@ const Frontpage = () => {
                 <Typewriter
                     options={{
                         strings: [
-                            '<strong>Hire me</strong> please',
+                            '<strong>Hire me</strong>',
                             'I will learn <strong>anything</strong>',
+                            'Coded in <strong>React</strong>'
                         ],
                         cursor: [''],
-                        deleteSpeed: 40,
+                        speed: 800,
+                        deleteSpeed: 45,
                         autoStart: true,
                         loop: true,
                         pauseFor: 2000,

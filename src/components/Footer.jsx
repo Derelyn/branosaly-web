@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div className="footer">
-            alpha v0.3.0
+            alpha v0.5.0
         </div>
     )
 }

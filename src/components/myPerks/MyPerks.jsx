@@ -59,9 +59,9 @@ const MyPerks = () => {
                         <p><strong>Mechanic</strong> - Advanced</p>
                         <p><strong>Googling</strong> - Expert</p>
                     </div>
-                    <div>
+                    {/* <div>
                         <h2>Personality Skills</h2>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

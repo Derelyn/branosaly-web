@@ -23,7 +23,7 @@ const NavLinks = (props) => {
                     to="about"
                     spy={true}
                     smooth={true}
-                    offset={-100}
+                    offset={-50}
                     duration={500}
                     className="nav-link"
                 >About</Link></motion.li>
