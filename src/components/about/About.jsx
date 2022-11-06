@@ -30,7 +30,7 @@ const About = () => {
                             <p><strong>Email:</strong> b.saly84@gmail.com</p>
                         </div>
                         <div className="zivotopis">
-                            <a href="src\components\about\zivotopis.pdf" download=''>Download my CV</a>
+                            <a href="src\components\about\CV_Branislav_Saly.pdf" download=''>Download my CV</a>
                         </div>
                     </div>
                 </div>

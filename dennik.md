@@ -53,3 +53,9 @@ grid-template-columns: 50% 20% 30%;
 # 31.10.2022
 - najprv funkcionalita az potom style
 - npm i react-scroll moze mat problem s efektom na navbare. Nefunguje ani pri overflow: hidden;
+
+# 5.11.2022
+## Responsive web design
+- max-width: 60rem/600px
+- margin: 0 auto; - toto da objekt automticky do stredu
+- %, vh, vw, em, rem
