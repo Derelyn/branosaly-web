@@ -138,9 +138,9 @@ body, html{
     position: absolute;
     top: 0rem;
     right: 0%;
-    height: 17.5rem;
+    height: 11em;
     padding-bottom: 1rem;
-    background-color: rgba(24, 24, 24, 0.7);
+    background-color: rgba(24, 24, 24, 0.8);
   }
   .logo{
     padding-left: 1rem;

@@ -7,7 +7,7 @@ const NavLinks = (props) => {
 
     return (
         <ul className="menu">
-            <motion.li className='nav-li' initial={animationFrom} animate={animateTo} transition={{ delay: 0.05 }} onClick={() => props.isMobile && props.closeMobileMenu()}>
+            <motion.li className='nav-li' initial={animationFrom} animate={animateTo} transition={{ delay: 0.05 }} >
                 <Link
                     activeClass="active"
                     to="home"
@@ -16,8 +16,9 @@ const NavLinks = (props) => {
                     offset={-100}
                     duration={500}
                     className="nav-link"
+                    onClick={() => props.isMobile && props.closeMobileMenu()}
                 >Home</Link></motion.li>
-            <motion.li className='nav-li' initial={animationFrom} animate={animateTo} transition={{ delay: 0.10 }} onClick={() => props.isMobile && props.closeMobileMenu()}>
+            <motion.li className='nav-li' initial={animationFrom} animate={animateTo} transition={{ delay: 0.10 }} >
                 <Link
                     activeClass="active"
                     to="about"
@@ -26,8 +27,9 @@ const NavLinks = (props) => {
                     offset={-50}
                     duration={500}
                     className="nav-link"
+                    onClick={() => props.isMobile && props.closeMobileMenu()}
                 >About</Link></motion.li>
-            <motion.li className='nav-li' initial={animationFrom} animate={animateTo} transition={{ delay: 0.15 }} onClick={() => props.isMobile && props.closeMobileMenu()}>
+            <motion.li className='nav-li' initial={animationFrom} animate={animateTo} transition={{ delay: 0.15 }} >
                 <Link
                     activeClass="active"
                     to="skills"
@@ -36,6 +38,7 @@ const NavLinks = (props) => {
                     offset={-100}
                     duration={500}
                     className="nav-link"
+                    onClick={() => props.isMobile && props.closeMobileMenu()}
                 >Skills</Link></motion.li>
         </ul>
     );

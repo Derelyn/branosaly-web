@@ -9,8 +9,8 @@ const Frontpage = () => {
                 <img src={portrait} alt="portrait" />
             </div>
             <h1>
-                Hello, I'm <strong>Branislav Šály</strong>, Self-thought Web
-                Developer, Who is Searching Junior Front-end Job in Bratislava.
+                Hello, I'm <strong>Branislav Šály</strong>, Self-thaught Web
+                Developer, Who is Searching For Junior Front-end Job in Bratislava.
             </h1>
             <div className='typing-effect'>
                 <Typewriter

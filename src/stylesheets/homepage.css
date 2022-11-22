@@ -22,7 +22,7 @@ strong{
 }
 
 .maintitle{
-    height: 92vh;
+    height: 95vh;
     padding: 0 1em;
     z-index: 2;
 }
@@ -32,7 +32,7 @@ strong{
     position: relative;
     left: 50%;  
     bottom: 7em;
-    max-width: calc(34vw + 5rem);
+    max-width: calc(35vw + 5rem);
     width:auto;
     height: auto;
     font-size: 1.7vw;
@@ -80,6 +80,7 @@ strong{
     .maintitle{
         position: relative;
         top: 4vh;
+        height: 97vh;
     }
     .maintitle h1{
         font-size: 5.5vw;
@@ -89,6 +90,7 @@ strong{
         max-width: calc(73vw + 5rem);
     }
     .typing-effect{
+        width: 92vw;
         font-size: 8vw;
         left: 0.25em;
         bottom: 3vh;

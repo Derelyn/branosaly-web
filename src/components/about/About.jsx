@@ -16,10 +16,9 @@ const About = () => {
                     <div className='aboutText'>
                         <p id='about-shortText'>
                             I am from small town called Nova Bana and right now I'm based in Bratislava. I am
-                            a man, who was searching for the right carrier path a long time, but I found it.
-                            For few years now I was dreaming of being web developer, but I choosed a wrong path
-                            so I was stucked at university. Once I started it, I wanted to finish it. So now after
-                            that I can finally realizing my dream of being software developer.
+                            a man, who was searching for the right carrier path a long time, but I finally found it.
+                            Even thought I studied international economic relationships, I wanted to work in a field of web development.
+                            So now after I finished my university, I can finally realize my dream of being front-end web developer.
                         </p>
                         <div className='about1'>
                             <p><strong>Age:</strong> 24</p>
@@ -30,7 +29,7 @@ const About = () => {
                             <p><strong>Email:</strong> b.saly84@gmail.com</p>
                         </div>
                         <div className="zivotopis">
-                            <a href="src\components\about\CV_Branislav_Saly.pdf" download=''>Download my CV</a>
+                            <a href="CV_Branislav_Saly.pdf" download className="download-btn">Download my CV</a>
                         </div>
                     </div>
                 </div>

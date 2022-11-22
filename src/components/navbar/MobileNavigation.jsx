@@ -1,3 +1,4 @@
+
 import NavLinks from './NavLinks'
 import { FiMenu } from 'react-icons/fi'
 import { AiOutlineClose } from 'react-icons/ai'
@@ -13,12 +14,15 @@ const MobileNavigation = () => {
         onClick={() => setOpen(!open)}
     />
 
+    const aboutHam = document.querySelectorAll('nav-li')
+
     const closeMobileMenu = () => setOpen(false);
 
     return (
         <nav className='MobileNavigation'>
             {open ? closeIcon : hamburgerIcon}
-            {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu} />}
+            {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu} setOpen={setOpen} />}
+            {aboutHam === true ? closeMobileMenu : ''}
         </nav>
     );
 }

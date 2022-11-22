@@ -4,7 +4,7 @@ const MyPerks = () => {
             <hr className="mainPageLine" />
             <div className="perks">
                 <div className="experiences">
-                    <h1>Work Experiences</h1>
+                    <h1>Work experiences</h1>
                     <div className="perksComponents">
                         <p><strong>2019-2022</strong></p>
                         <p className="titlePerks">Electrician for JUT-EL s.r.o.</p>
@@ -21,7 +21,7 @@ const MyPerks = () => {
                     <div className="perksComponents">
                         <p><strong>2022</strong></p>
                         <p className="titlePerks">The Web Developer Bootcamp 2022</p>
-                        <p>Course at Udemy by Colt Steele. Course About Complet Web Development.</p>
+                        <p>Course at Udemy by Colt Steele. The Web Developer Bootcamp.</p>
                     </div>
                     <div className="perksComponents">
                         <p><strong>2019-2022</strong></p>
@@ -30,14 +30,14 @@ const MyPerks = () => {
                     </div>
                     <div className="perksComponents">
                         <p><strong>2014-2018</strong></p>
-                        <p className="titlePerks">Polytechnic High School in Zlaté Moravce.</p>
-                        <p>Field of Study: Mechanic Electrician</p>
+                        <p className="titlePerks">Polytechnic Vocational High School in Zlaté Moravce</p>
+                        <p>Major: Mechanic electrician</p>
                     </div>
                 </div>
                 <div className="skills">
                     <h1>Skills</h1>
                     <div>
-                        <h2>Programming Skills</h2>
+                        <h2>Programming skills</h2>
                         <p><strong>Javascript</strong> - Basic/Skillful</p>
                         <p><strong>CSS</strong> - Skillful</p>
                         <p><strong>HTML</strong> - Advanced</p>

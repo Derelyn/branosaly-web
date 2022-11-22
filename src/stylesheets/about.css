@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 #about-shortText{
     width: 55ch;
@@ -137,7 +137,7 @@
 @media(max-width: 720px){
     .aboutWhole{
         bottom: 3vh;
-        height: 100vh;
+        height: 107vh;
     }
     #aboutPage{
         display: grid;
@@ -164,15 +164,15 @@
     }
     .about1{
         float: right;
-        width: 100%;
+        width: 60%;
         position: relative;
         grid-column: 1/5;
-        left:19vw;
+        left:6vw;
     }
     .about2{
         float: right;
-        width: 100%;
-        left:19vw;
+        width: 60%;
+        left:6vw;
         grid-column: 1/5;
     }
     .about1, .about2{
